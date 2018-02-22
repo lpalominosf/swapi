@@ -1,8 +1,20 @@
-#character {
-  width: 100px;
-  height: 100px;
+body {
+  background: url(../img/226160189-star-wars-background-wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
 }
 
-#yoda {
-  width: 150px;
+.character {
+  width: 100px;
+  height: 100px;
+  margin: 1%;
+}
+
+img {
+  cursor: pointer;
+}
+
+img:hover {
+  opacity: 0.5;
 }
